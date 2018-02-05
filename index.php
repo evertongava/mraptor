@@ -1,0 +1,9 @@
+<?php
+    php_ini_loaded_file($_ENV['MRAPTOR_ROOT'].'/Config/php.ini');
+    phpinfo();
+    //var_dump(getallheaders());
+    //var_dump($_SERVER);
+    //var_dump($_SESSION);
+    //var_dump($_COOKIE);
+    //var_dump($_ENV);
+?>

@@ -1,0 +1,16 @@
+{
+	"webservice" : {
+		"address" : "0.0.0.0",
+		"port" : 80,
+		"max-process" : 5,
+		"max-threads" : 2
+	},
+	"memcached" : {
+		"server" : "127.0.0.1",
+		"port" : 11211
+	},
+	"postgresql" : {
+		"server" : "127.0.0.1",
+		"port" : 5432
+	}
+}
